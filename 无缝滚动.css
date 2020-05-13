@@ -1,0 +1,29 @@
+*{
+	/* 清楚浏览器的默认样式 */
+	margin: 0;
+	padding: 0;
+}
+#div1{
+	width: 800px;
+	height: 100px;
+	margin: 100px auto;
+	/* 设置无序列表的父元素为相对定位 */
+	position: relative;
+	/* 隐藏无序列表中多处的内容 */
+	overflow: hidden;
+}
+#div1 ul{
+	/* 给无序列表设置绝对定位 */
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#div1 ul li{
+	/* 设置无序列表中的列表项为向左浮动 */
+	float: left;
+	width: 200px;
+	height: 200px;
+	/* 去除列表项的默认符号 */
+	list-style: none;
+}
+	
